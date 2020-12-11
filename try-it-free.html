@@ -9,9 +9,9 @@
 	<meta name="robots" content="index, follow" />
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?3864">
-	<link rel="stylesheet" type="text/css" href="style.css?4998">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?3230">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?1372">
+	<link rel="stylesheet" type="text/css" href="style.css?5537">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?9367">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/linecons.min.css">
@@ -37,7 +37,7 @@
 <div class="page-container">
     
 <!-- navigation -->
-<div class="bloc none d-bloc full-width-bloc b-parallax " id="navigation">
+<div class="bloc none d-bloc full-width-bloc b-parallax" id="navigation">
 	<div class="parallax bg-Navigation-20bgm bgc-black">
 	</div>
 	<div class="container bloc-sm b-divider-dashed bloc-sm-lg">
@@ -92,7 +92,7 @@
 							</div>
 							<div class="col-6 col-sm-2 bloc-navigation-padding-top">
 								<div class="text-center">
-									<a href="#" class="btn btn-lg btn-clean btn-white btn-log-in-padding-left" data-toggle="modal" data-target="No Selection">Log in</a>
+									<a href="color-egg.html" class="btn btn-lg btn-clean btn-white btn-log-in-padding-left" target="_blank">Log in</a>
 								</div>
 							</div>
 						</div>
@@ -105,16 +105,16 @@
 <!-- navigation END -->
 
 <!-- bloc-26 -->
-<div class="bloc l-bloc" id="bloc-26">
+<div class="bloc l-bloc animated vanishIn" id="bloc-26" data-appear-anim-style="vanishIn">
 	<div class="container bloc-lg bloc-md-lg">
 		<div class="row">
 			<div class="col-12">
 				<div class="row">
 					<div class="col">
-						<img src="img/lazyload-ph.png" data-src="img/bloc-26.jpg" class="img-fluid mx-auto d-block img-48-style lazyload" alt="4821606581964_.pic_hd" />
+						<a href="#" data-scroll-speed="1000" onclick="scrollToTarget('#bloc-29',this)"><img src="img/lazyload-ph.png" data-src="img/bloc-29.jpg" class="img-fluid mx-auto d-block pic-shadow lazyload" alt="4821606581964_.pic_hd" /></a>
 					</div>
 					<div class="col">
-						<img src="img/lazyload-ph.png" data-src="img/4821606581964_.pic_hd.jpg" class="img-fluid mx-auto d-block img-测试pic--style lazyload" alt="4821606581964_.pic_hd" />
+						<a href="#" data-scroll-speed="1000" onclick="scrollToTarget('#intervention',this)"><img src="img/lazyload-ph.png" data-src="img/4821606581964_.pic_hd.jpg" class="img-fluid mx-auto d-block pic-shadow lazyload" alt="4821606581964_.pic_hd" /></a>
 					</div>
 				</div>
 			</div>
@@ -129,7 +129,7 @@
 					</div>
 					<div class="col">
 						<div class="text-center container-div-margin-top">
-							<a href="#" class="btn btn-d btn-lg btn-margin-top" data-scroll-speed="1000" onclick="scrollToTarget('#bloc-32',this)">Intervention</a>
+							<a href="#" class="btn btn-d btn-lg btn-margin-top" data-scroll-speed="1000" onclick="scrollToTarget('#intervention',this)">Intervention</a>
 						</div>
 					</div>
 				</div>
@@ -139,26 +139,12 @@
 </div>
 <!-- bloc-26 END -->
 
-<!-- bloc-27 -->
-<div class="bloc l-bloc" id="bloc-27">
-	<div class="container bloc-lg bloc-md-lg">
-		<div class="row">
-			<div class="col">
-				<div class="divider-h">
-					<span class="divider divider-half"></span>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-27 END -->
-
 <!-- bloc-29 -->
 <div class="bloc b-parallax d-bloc tc-white" id="bloc-29">
 	<div class="parallax bg-Background1">
 	</div>
 	<div class="container bloc-lg">
-		<div class="row">
+		<div class="row animated puffIn animSpeedLazy" data-appear-anim-style="puffIn">
 			<div class="col">
 				<h3 class="mg-md introduction-head text-lg-center h3-bloc-29-style tc-white">
 					Early Detection
@@ -166,14 +152,12 @@
 				<p class="intro-text">
 					We are proudly providing you with our early detection service based on analyzing your data with cutting-edge technology, to help you monitor your psychological condition and avoid severe psychology problems. Tips and advises will be given based on your current stress level.<br><br>Based on researches on psychology and human behavior, psychological status can be reflected by different behaviors including social media messages like tweets, moments and contents you choose to re-tweet and other physical indicators like sleeping condition, heart rate and weight. <br><br>Your privacy will be our top concern. The data you authorize us to use will neither be stored or shared by us to any individual or a third party, and the evaluation process will be completely automated. An alarm and short-cut to emergency assistance will be given to you only if you are evaluated as under very heavy stress and are potential to behave irrationally and dangerously.<br><br>
 				</p>
+				<div class="divider-h">
+					<span class="divider"></span>
+				</div>
 			</div>
 		</div>
-		<div class="row row-bloc-29-margin-bottom">
-			<div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-				<img src="img/lazyload-ph.png" data-src="img/bloc-29.jpg" class="img-fluid mx-auto d-block img-bloc--style lazyload" alt="4821606581964_.pic_hd" />
-			</div>
-		</div>
-		<div class="row">
+		<div class="row animated puffIn animSpeedLazy" data-appear-anim-style="puffIn">
 			<div class="col">
 				<h3 class="mg-md tc-white">
 					Please select the data you want to share with us
@@ -282,7 +266,7 @@
 						<a href="#" class="btn btn-d btn-lg btn-skip-style" data-toggle="modal" data-target="#modal-no-authority">Skip</a>
 					</div>
 					<div class="col">
-						<a href="index.html" class="btn btn-d btn-lg btn-cancel-style">Cancel</a>
+						<a href="try-it-free.html" class="btn btn-d btn-lg btn-cancel-style">Cancel</a>
 					</div>
 				</div>
 			</div>
@@ -310,7 +294,7 @@
 	<div class="parallax bg-Background1">
 	</div>
 	<div class="container bloc-lg bloc-sm-lg">
-		<div class="row row-70-margin-bottom">
+		<div class="row row-70-margin-bottom animated puffIn animSpeedLazy" data-appear-anim-style="puffIn">
 			<div class="col">
 				<h3 class="mg-md introduction-head h3-intervention-style tc-white text-lg-center">
 					Intervention
@@ -320,9 +304,9 @@
 				</p>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row animated puffIn animSpeedLazy" data-appear-anim-style="puffIn">
 			<div class="col-md-6">
-				<img src="img/lazyload-ph.png" data-src="img/littleplanet1.jpg" class="img-fluid mx-auto d-block img-21-style lazyload" alt="placeholder image" />
+				<img src="img/lazyload-ph.png" data-src="img/littleplanet1.jpg" class="img-fluid mx-auto d-block pic-shadow img-littleplane-style lazyload" alt="placeholder image" />
 			</div>
 			<div class="col-md-6 align-self-center">
 				<h2 class="mg-md tc-white">
@@ -336,7 +320,7 @@
 				</p><a href="#" class="btn btn-d btn-lg btn-button-style" data-scroll-speed="1000" onclick="scrollToTarget('#little-planet',this)">I&rsquo;m here<br></a>
 			</div>
 		</div>
-		<div class="row row-bloc-37-margin-top">
+		<div class="row row-bloc-37-margin-top animated puffIn animSpeedLazy" data-appear-anim-style="puffIn">
 			<div class="col-md-6 align-self-center">
 				<h2 class="mg-md tc-white">
 					"With Me"
@@ -349,7 +333,7 @@
 				</p><a href="#" class="btn btn-d btn-lg btn-button-style" data-scroll-speed="1000" onclick="scrollToTarget('#with-me',this)">I&rsquo;m here<br></a>
 			</div>
 			<div class="col-md-6">
-				<img src="img/lazyload-ph.png" data-src="img/trusted%20agency-blc%2049.jpeg" class="img-fluid mx-auto d-block img-21-style lazyload" alt="placeholder image" />
+				<img src="img/lazyload-ph.png" data-src="img/trusted%20agency-blc%2049.jpeg" class="img-fluid mx-auto d-block pic-shadow img-intervention-style lazyload" alt="placeholder image" />
 			</div>
 		</div>
 	</div>
@@ -371,11 +355,11 @@
 <!-- bloc-38 END -->
 
 <!-- little-planet -->
-<div class="bloc tc-white d-bloc b-parallax" id="little-planet">
-	<div class="parallax bg-Background2">
+<div class="bloc tc-white b-parallax d-bloc" id="little-planet">
+	<div class="parallax bg-Background1">
 	</div>
 	<div class="container bloc-lg">
-		<div class="row">
+		<div class="row animated vanishIn animSpeedLazy" data-appear-anim-style="vanishIn">
 			<div class="col">
 				<h1 class="mg-md h1-style tc-white text-lg-center">
 					Little Planet<br>
@@ -385,9 +369,9 @@
 				</h3>
 			</div>
 		</div>
-		<div class="row row-little-planet-margin-top">
+		<div class="row row-little-planet-margin-top animated puffIn animSpeedLazy" data-appear-anim-style="puffIn">
 			<div class="col-md-6">
-				<img src="img/lazyload-ph.png" data-src="img/tree%20hole2.jpg" class="img-fluid mx-auto d-block img-21-style lazyload" alt="placeholder image" />
+				<img src="img/lazyload-ph.png" data-src="img/tree%20hole2.jpg" class="img-fluid mx-auto d-block pic-shadow img-tree-hole2-style lazyload" alt="placeholder image" />
 			</div>
 			<div class="col-md-6 align-self-center">
 				<h1 class="mg-md tc-white try-head">
@@ -398,10 +382,10 @@
 				</h3>
 				<p class="try-para p-little-planet-style">
 					<strong>Come to tree hole to dump anything you cannot say in the real life. Here everything is anonymous, your secrets are safe in the hollow.</strong>
-				</p><a href="index.html" class="btn btn-d btn-lg btn-button-style">I&rsquo;m here<br></a>
+				</p><a href="color-egg.html" class="btn btn-d btn-lg btn-button-style" target="_blank">I&rsquo;m here<br></a>
 			</div>
 		</div>
-		<div class="row row-75-margin-top">
+		<div class="row row-75-margin-top animated puffIn animSpeedLazy" data-appear-anim-style="puffIn">
 			<div class="col-md-6 align-self-center">
 				<h2 class="mg-md">
 					“Elsa” ChatBot
@@ -411,15 +395,15 @@
 				</h3>
 				<p>
 					“Elsa” ChatBot is a virtual chatting robot based on AI and can response your actions with warm and inspiring sentences. Many people feel lonely and under great amount of pressure very late at night, when you cannot reach anyone to share your feelings. “Elsa” ChatBot will always be with you and be your secret pal. Your chat will be protected as privacy unless you&rsquo;ve given your approval of using these data to improve detection accuracy.
-				</p><a href="index.html" class="btn btn-d btn-lg btn-button-style">I&rsquo;m here<br></a>
+				</p><a href="color-egg.html" class="btn btn-d btn-lg btn-button-style" target="_blank">I&rsquo;m here<br></a>
 			</div>
 			<div class="col-md-6">
-				<img src="img/lazyload-ph.png" data-src="img/chatbot1.png" class="img-fluid mx-auto d-block img-21-style lazyload" alt="placeholder image" />
+				<img src="img/lazyload-ph.png" data-src="img/chatbot1.png" class="img-fluid mx-auto d-block pic-shadow img-chatbo-style lazyload" alt="placeholder image" />
 			</div>
 		</div>
-		<div class="row row-76-margin-top">
+		<div class="row row-76-margin-top animated puffIn animSpeedLazy" data-appear-anim-style="puffIn">
 			<div class="col-md-6">
-				<img src="img/lazyload-ph.png" data-src="img/books_videos1.jpg" class="img-fluid mx-auto d-block img-21-style lazyload" alt="placeholder image" />
+				<img src="img/lazyload-ph.png" data-src="img/books_videos1.jpg" class="img-fluid mx-auto d-block pic-shadow img-books-video-style lazyload" alt="placeholder image" />
 			</div>
 			<div class="col-md-6 align-self-center">
 				<h2 class="mg-md">
@@ -430,10 +414,10 @@
 				</h3>
 				<p>
 					Here we work with university libraries and other social organisations to offer you professional tutorial books and videos for pressure relief. Our resources are 100% free and cover the area of emotion, academics and career. You can certainly find what you like here!
-				</p><a href="index.html" class="btn btn-d btn-lg btn-button-style">I&rsquo;m here<br></a>
+				</p><a href="color-egg.html" class="btn btn-d btn-lg btn-button-style" target="_blank">I&rsquo;m here<br></a>
 			</div>
 		</div>
-		<div class="row row-77-margin-top">
+		<div class="row row-77-margin-top animated puffIn animSpeedLazy" data-appear-anim-style="puffIn">
 			<div class="col-md-6 align-self-center">
 				<h2 class="mg-md">
 					Make your journal of happiness
@@ -443,10 +427,10 @@
 				</h3>
 				<p>
 					Move your attention away from the troubles and stress, life is also full of happiness and joy, as long as you choose to see them. Let&rsquo;s start the journey to mark little happiness down and in the darkest day, you can still see the sunshine here.
-				</p><a href="index.html" class="btn btn-d btn-lg btn-button-style">I&rsquo;m here<br></a>
+				</p><a href="color-egg.html" class="btn btn-d btn-lg btn-button-style" target="_blank">I&rsquo;m here<br></a>
 			</div>
 			<div class="col-md-6">
-				<img src="img/lazyload-ph.png" data-src="img/journal2.jpg" class="img-fluid mx-auto d-block img-21-style lazyload" alt="placeholder image" />
+				<img src="img/lazyload-ph.png" data-src="img/journal2.jpg" class="img-fluid mx-auto d-block pic-shadow img-journa-style lazyload" alt="placeholder image" />
 			</div>
 		</div>
 	</div>
@@ -468,11 +452,11 @@
 <!-- bloc-29 END -->
 
 <!-- with-me -->
-<div class="bloc b-parallax tc-white" id="with-me">
-	<div class="parallax bg-Background2">
+<div class="bloc b-parallax tc-white d-bloc" id="with-me">
+	<div class="parallax bg-Background1">
 	</div>
 	<div class="container bloc-lg bloc-sm-lg">
-		<div class="row row-with-me-margin-bottom">
+		<div class="row row-with-me-margin-bottom animated puffIn animSpeedLazy" data-appear-anim-style="puffIn">
 			<div class="col">
 				<h3 class="mg-md h1-style text-lg-center tc-white">
 					With Me<br>
@@ -482,9 +466,9 @@
 				</h3>
 			</div>
 		</div>
-		<div class="row row-80-margin-bottom">
+		<div class="row row-80-margin-bottom animated vanishIn animSpeedLazy" data-appear-anim-style="vanishIn">
 			<div class="col-md-6">
-				<img src="img/lazyload-ph.png" data-src="img/1-1%20consulting-blc%2046.jpg" class="img-fluid mx-auto d-block img-21-style lazyload" alt="placeholder image" />
+				<img src="img/lazyload-ph.png" data-src="img/1-1%20consulting-blc%2046.jpg" class="img-fluid mx-auto d-block pic-shadow img-with-me-style lazyload" alt="placeholder image" />
 			</div>
 			<div class="col-md-6 align-self-center">
 				<h2 class="mg-md tc-white">
@@ -498,7 +482,7 @@
 				</p><a href="#" class="btn btn-d btn-lg btn-button-style" data-scroll-speed="1000" onclick="scrollToTarget('#consulting',this)">I&rsquo;m here<br></a>
 			</div>
 		</div>
-		<div class="row row-with-me-margin-top">
+		<div class="row row-with-me-margin-top animated vanishIn animSpeedLazy" data-appear-anim-style="vanishIn">
 			<div class="col-md-6 align-self-center">
 				<h2 class="mg-md tc-white">
 					Games Activities
@@ -508,15 +492,15 @@
 				</h3>
 				<p>
 					Scavenger Hunt.<br>What's My Name?<br>Cook-Off.<br>Sneak a Peek.<br>Board Game Tournament.<br>Office Trivia.<br>Improv Workshop.<br>Two Truths and a Lie.<br>
-				</p><a href="index.html" class="btn btn-d btn-lg btn-button-style">I&rsquo;m here<br></a>
+				</p><a href="color-egg.html" class="btn btn-d btn-lg btn-button-style" target="_blank">I&rsquo;m here<br></a>
 			</div>
 			<div class="col-md-6">
-				<img src="img/lazyload-ph.png" data-src="img/group-blc%2047.jpeg" class="img-fluid mx-auto d-block img-21-style lazyload" alt="placeholder image" />
+				<img src="img/lazyload-ph.png" data-src="img/group-blc%2047.jpeg" class="img-fluid mx-auto d-block pic-shadow img-group-blc-47-style lazyload" alt="placeholder image" />
 			</div>
 		</div>
-		<div class="row row-82-margin-top">
+		<div class="row row-82-margin-top animated vanishIn animSpeedLazy" data-appear-anim-style="vanishIn">
 			<div class="col-md-6">
-				<img src="img/lazyload-ph.png" data-src="img/Application%20scenario-2.jpg" class="img-fluid mx-auto d-block img-21-style lazyload" alt="placeholder image" />
+				<img src="img/lazyload-ph.png" data-src="img/Application%20scenario-2.jpg" class="img-fluid mx-auto d-block pic-shadow img-39-style lazyload" alt="placeholder image" />
 			</div>
 			<div class="col-md-6 align-self-center">
 				<h2 class="mg-md tc-white">
@@ -527,10 +511,10 @@
 				</h3>
 				<p>
 					Business, dating, communication on a daily basis. Follow our sessions to grow.
-				</p><a href="index.html" class="btn btn-d btn-lg btn-button-style">I&rsquo;m here<br></a>
+				</p><a href="color-egg.html" class="btn btn-d btn-lg btn-button-style" target="_blank">I&rsquo;m here<br></a>
 			</div>
 		</div>
-		<div class="row row-83-margin-top">
+		<div class="row row-83-margin-top animated vanishIn animSpeedLazy" data-appear-anim-style="vanishIn">
 			<div class="col-md-6 align-self-center">
 				<h2 class="mg-md tc-white">
 					Trusted Agencies
@@ -540,10 +524,10 @@
 				</h3>
 				<p>
 					National Counseling Center<br>National Psychological Hospital<br>College Psychological Association<br><br>
-				</p><a href="index.html" class="btn btn-d btn-lg btn-button-style">I&rsquo;m here<br></a>
+				</p><a href="color-egg.html" class="btn btn-d btn-lg btn-button-style" target="_blank">I&rsquo;m here<br></a>
 			</div>
 			<div class="col-md-6">
-				<img src="img/lazyload-ph.png" data-src="img/trusted%20agency-blc%2049.jpeg" class="img-fluid mx-auto d-block img-21-style lazyload" alt="placeholder image" />
+				<img src="img/lazyload-ph.png" data-src="img/trusted%20agency-blc%2049.jpeg" class="img-fluid mx-auto d-block pic-shadow img-40-style lazyload" alt="placeholder image" />
 			</div>
 		</div>
 	</div>
@@ -567,93 +551,66 @@
 <!-- consulting -->
 <div class="bloc bg-Background1 tc-white" id="consulting">
 	<div class="container bloc-lg bloc-sm-lg">
-		<div class="row">
+		<div class="row animated puffIn animSpeedLazy" data-appear-anim-style="puffIn">
 			<div class="col">
 				<h3 class="mg-md h1-style text-lg-center tc-white">
 					1V1 Consulting
 				</h3>
 				<p>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+					We have experts in the field of academy, career, love issues and spiritual massage. Online counseling can help you get heard as soon as possible. The regional-sharing mode also allows psychologists to quickly communicate with you offline.
 				</p>
 			</div>
 		</div>
-		<div class="row voffset">
-			<div class="col-lg-3 col-md-6">
-				<a href="#" data-lightbox="img/LYU%20YUNFAN.jpg" data-gallery-id="gallery-1"><img src="img/lazyload-ph.png" data-src="img/LYU%20YUNFAN.jpg" class="img-fluid mx-auto d-block img-lyu-yunfan-style lazyload" alt="placeholder image" /></a>
-				<h4 class="mg-md">
-					Jerry
+		<div class="row voffset animated vanishIn animSpeedLazy" data-appear-anim-style="vanishIn">
+			<div class="col-lg-3 col-md-6 offset-lg-0">
+				<a href="#" data-lightbox="img/LYU%20YUNFAN.jpg" data-gallery-id="gallery-1"><img src="img/lazyload-ph.png" data-src="img/LYU%20YUNFAN.jpg" class="img-fluid mx-auto d-block pic-shadow img-lyu-yunfan-style lazyload" alt="placeholder image" /></a>
+				<h4 class="mg-md text-lg-center">
+					Dr. Marious
 				</h4>
-				<p>
+				<p class="text-lg-center">
 					Good at solution planning
 				</p>
 			</div>
-			<div class="col-lg-3 col-md-6 mt-1 mt-md-0">
-				<a href="#" data-lightbox="img/4391606561290_.pic_hd.jpg" data-gallery-id="gallery-1"><img src="img/lazyload-ph.png" data-src="img/4391606561290_.pic_hd.jpg" class="img-fluid mx-auto d-block img-439160656129-style lazyload" alt="placeholder image" /></a>
-				<h4 class="mg-md">
-					Helen
+			<div class="col-lg-3 col-md-6 mt-1 mt-md-0 offset-lg-1">
+				<a href="#" data-lightbox="img/4391606561290_.pic_hd.jpg" data-gallery-id="gallery-1"><img src="img/lazyload-ph.png" data-src="img/4391606561290_.pic_hd.jpg" class="img-fluid mx-auto d-block pic-shadow img-439160656129-style lazyload" alt="placeholder image" /></a>
+				<h4 class="mg-md text-lg-center">
+					Dr. Eric
 				</h4>
-				<p>
+				<p class="text-lg-center">
 					Good at networking issues
 				</p>
 			</div>
-			<div class="col-lg-3 col-md-6 mt-1 mt-md-4 mt-lg-0">
-				<a href="#" data-lightbox="img/71606562644_.pic.jpg" data-gallery-id="gallery-1"><img src="img/lazyload-ph.png" data-src="img/71606562644_.pic.jpg" class="img-fluid mx-auto d-block img-7160656264-style lazyload" alt="placeholder image" /></a>
-				<h4 class="mg-md">
-					Emma
+			<div class="col-lg-3 col-md-6 mt-1 mt-md-4 mt-lg-0 offset-lg-1">
+				<a href="#" data-lightbox="img/71606562644_.pic.jpg" data-gallery-id="gallery-1"><img src="img/lazyload-ph.png" data-src="img/71606562644_.pic.jpg" class="img-fluid mx-auto d-block pic-shadow img-7160656264-style lazyload" alt="placeholder image" /></a>
+				<h4 class="mg-md text-lg-center">
+					Dr. Charles
 				</h4>
-				<p>
+				<p class="text-lg-center">
 					Good at handling love issues
 				</p>
 			</div>
-			<div class="col-lg-3 col-md-6 mt-1 mt-md-4 mt-lg-0">
-				<a href="#" data-lightbox="img/46321606560562_.pic_hd.jpg" data-gallery-id="gallery-1"><img src="img/lazyload-ph.png" data-src="img/46321606560562_.pic_hd.jpg" class="img-fluid mx-auto d-block img-4632160656056-style lazyload" alt="placeholder image" /></a>
-				<h4 class="mg-md">
-					Mike
+		</div>
+		<div class="row voffset animated vanishIn animSpeedLazy" data-appear-anim-style="vanishIn">
+			<div class="col-lg-3 col-md-6 mt-1 mt-md-4 mt-lg-0 offset-lg-2">
+				<a href="#" data-lightbox="img/46321606560562_.pic_hd.jpg" data-gallery-id="gallery-1"><img src="img/lazyload-ph.png" data-src="img/46321606560562_.pic_hd.jpg" class="img-fluid mx-auto d-block pic-shadow img-4632160656056-style lazyload" alt="placeholder image" /></a>
+				<h4 class="mg-md text-lg-center">
+					Dr. Rainie
 				</h4>
-				<p>
+				<p class="text-lg-center">
 					Good at dealing with career issues
 				</p>
 			</div>
-		</div>
-		<div class="row voffset">
-			<div class="col-lg-3 col-md-6">
-				<a href="#" data-lightbox="img/placeholder-image.png" data-gallery-id="gallery-1"><img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" /></a>
-				<h4 class="mg-md">
-					Title here
+			<div class="col-lg-3 col-md-6 offset-lg-1">
+				<a href="#" data-lightbox="img/16891606379328_.pic_hd.jpg" data-gallery-id="gallery-1"><img src="img/lazyload-ph.png" data-src="img/16891606379328_.pic_hd.jpg" class="img-fluid mx-auto d-block pic-shadow img-45-style lazyload" alt="placeholder image" /></a>
+				<h4 class="mg-md text-lg-center">
+					Dr. Eos
 				</h4>
-				<p>
-					Lorem ipsum dolor sit amet, elit Aenean commodo ligula eget.
-				</p>
-			</div>
-			<div class="col-lg-3 col-md-6 mt-1 mt-md-0">
-				<a href="#" data-lightbox="img/placeholder-image.png" data-gallery-id="gallery-1"><img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" /></a>
-				<h4 class="mg-md">
-					Title here
-				</h4>
-				<p>
-					Lorem ipsum dolor sit amet, elit Aenean commodo ligula eget.
-				</p>
-			</div>
-			<div class="col-lg-3 col-md-6 mt-1 mt-md-4 mt-lg-0">
-				<a href="#" data-lightbox="img/placeholder-image.png" data-gallery-id="gallery-1"><img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" /></a>
-				<h4 class="mg-md">
-					Title here
-				</h4>
-				<p>
-					Lorem ipsum dolor sit amet, elit Aenean commodo ligula eget.
-				</p>
-			</div>
-			<div class="col-lg-3 col-md-6 mt-1 mt-md-4 mt-lg-0">
-				<a href="#" data-lightbox="img/placeholder-image.png" data-gallery-id="gallery-1"><img src="img/lazyload-ph.png" data-src="img/placeholder-image.png" class="img-fluid mx-auto d-block lazyload" alt="placeholder image" /></a>
-				<h4 class="mg-md">
-					Title here
-				</h4>
-				<p>
-					Lorem ipsum dolor sit amet, elit Aenean commodo ligula eget.
+				<p class="text-lg-center">
+					She know Everything.
 				</p>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row animated vanishIn none" data-appear-anim-style="vanishIn">
 			<div class="col">
 				<div class="divider-h">
 					<span class="divider"></span>
@@ -669,13 +626,13 @@
 						<label>
 							Nickname
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" class="form-control" required placeholder="Please Input your nickname" />
 					</div>
 					<div class="form-group">
 						<label>
-							Email
+							E-mail
 						</label>
-						<input id="email" class="form-control" type="email" data-error-validation-msg="Not a valid email address" required />
+						<input id="email" class="form-control" type="email" data-error-validation-msg="Not a valid email address" required placeholder="please input your E-mail address" />
 					</div>
 					<div>
 						<div class="form-group">
@@ -688,16 +645,22 @@
 										Please Select your question type.
 									</option>
 									<option value="0">
-										New Option
+										Friendship
 									</option>
 									<option value="0">
 										Peer pressure
 									</option>
 									<option value="0">
-										New Option
+										Work
 									</option>
 									<option value="1">
-										Option 2
+										Internship
+									</option>
+									<option value="0">
+										Paper&amp; Essay
+									</option>
+									<option value="0">
+										Something else
 									</option>
 								</select>
 							</div>
@@ -710,6 +673,9 @@
 							</label>
 							<div class="form-group">
 								<select class="form-control" id="select_1124">
+									<option value="0">
+										Please select the location
+									</option>
 									<option value="0">
 										Online
 									</option>
@@ -728,19 +694,28 @@
 							<div class="form-group">
 								<select class="form-control" id="select_604">
 									<option value="0">
+										Please select a time
+									</option>
+									<option value="0">
 										Monday
 									</option>
 									<option value="0">
-										New Option
+										Tuesday
 									</option>
 									<option value="0">
-										New Option
-									</option>
-									<option value="0">
-										New Option
+										Wednesday
 									</option>
 									<option value="1">
-										Offline
+										Thursday
+									</option>
+									<option value="0">
+										Friday
+									</option>
+									<option value="0">
+										Saturday
+									</option>
+									<option value="0">
+										Sunday
 									</option>
 								</select>
 							</div>
@@ -749,7 +724,7 @@
 					<div class="form-group">
 						<label>
 							Special Message
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" required placeholder="Feel free to write down anything you want to attached."></textarea>
 					</div> <a class="btn btn-d btn-lg btn-block" data-toggle="modal" data-target="#modal-41744" href="#">Submit and see who will be available</a>
 				</form>
 			</div>
@@ -758,9 +733,9 @@
 </div>
 <!-- consulting END -->
 
-<!-- bloc-53 -->
-<div class="bloc l-bloc" id="bloc-53">
-	<div class="container bloc-lg bloc-sm-lg">
+<!-- bloc-29 -->
+<div class="bloc l-bloc" id="bloc-29">
+	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col">
 				<div class="divider-h">
@@ -770,7 +745,7 @@
 		</div>
 	</div>
 </div>
-<!-- bloc-53 END -->
+<!-- bloc-29 END -->
 
 <!-- bloc-55 -->
 <div class="bloc l-bloc" id="bloc-55">
@@ -778,30 +753,40 @@
 		<div class="row">
 			<div class="col">
 				<div id="modal-41744" class="modal fade" tabindex="-1" role="dialog">
-					<div class="modal-dialog  modal-dialog-centered" role="document">
+					<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
 								<h3 class="mg-clear">
 									Search Result
-								</h3>
+								</h3><a href="#" class="btn btn-d btn-lg btn-style-none" data-dismiss="modal" aria-label="Close"><span class="fa fa-times close"></span></a>
 							</div>
 							<div class="modal-body">
 								<div class="row">
 									<div class="col">
 										<img src="img/lazyload-ph.png" data-src="img/16891606379328_.pic_hd.jpg" class="img-fluid rounded-circle mx-auto d-block img-1689160637932-style lazyload" alt="16891606379328_.pic_hd" />
 									</div>
-									<div class="col">
+									<div class="col bloc-bloc-55-margin-top">
 										<h3 class="mg-md">
-											Shao Xiaodan
+											Dr. Eos
 										</h3>
 										<p>
-											Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-										</p>
+											She know Everything.
+										</p><a href="#" class="btn btn-d btn-lg button" data-toggle="modal" data-target="#modal-map">See Where is She</a>
 									</div>
 								</div>
-							</div>
-							<div class="modal-footer">
-								<a href="index.html" class="btn btn-d btn-lg">Pick!</a>
+								<div class="row">
+									<div class="col">
+										<img src="img/lazyload-ph.png" data-src="img/46321606560562_.pic_hd.jpg" class="img-fluid rounded-circle mx-auto d-block img-1689160637932-style lazyload" alt="16891606379328_.pic_hd" />
+									</div>
+									<div class="col bloc-0-margin-top">
+										<h3 class="mg-md">
+											Dr. Rainie
+										</h3>
+										<p>
+											Good at dealing with career issues
+										</p><a href="#" class="btn btn-d btn-lg button" data-toggle="modal" data-target="#modal-map">See Where is She</a>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -851,7 +836,7 @@
 												</div>
 											</div>
 											<div class="col">
-												<a href="#" class="btn btn-lg btn-questionnaire-padding-left btn-wire" data-toggle="modal" data-target="#modal--questionnaire">Skip<br></a>
+												<a href="#" class="btn btn-lg btn-questionnaire-padding-left btn-wire" data-toggle="modal" data-target="#modal--questionnaire">Watch Interactive video<br></a>
 											</div>
 											<div class="col">
 												<a href="#" class="btn btn-lg btn-padding-left btn-rd btn-wire" data-scroll-speed="1000" onclick="scrollToTarget('#bloc-29',this)">ReAuthority<br></a>
@@ -879,12 +864,12 @@
 						<div class="modal-content">
 							<div class="modal-header">
 								<h3 class="mg-clear">
-									Modal heading
+									Interactive Video<br>
 								</h3>
 							</div>
 							<div class="modal-body">
 								<div class="embed-responsive embed-responsive-16by9">
-									<iframe class="embed-responsive-item lazyload" src="img/lazyload-ph.png" data-src="https://www.youtube.com/embed/9bZkp7q19f0?start=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+									<iframe class="embed-responsive-item lazyload" src="img/lazyload-ph.png" data-src="https://www.youtube.com/embed/a6s3vrC6308" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 									</iframe>
 								</div>
 							</div>
@@ -990,6 +975,30 @@
 </div>
 <!-- bloc-47 END -->
 
+<!-- bloc-35 -->
+<div class="bloc l-bloc" id="bloc-35">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col">
+				<div id="modal-map" class="modal fade" tabindex="-1" role="dialog">
+					<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<a href="#" class="btn btn-d btn-lg btn-style-none" data-dismiss="modal" aria-label="Close"><span class="fa fa-times close"></span></a>
+							<div class="modal-body">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe class="embed-responsive-item lazyload" src="img/lazyload-ph.png" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.2843794339174!2d103.68573459872333!3d1.3532676123034766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa0e1632e28351753!2sNTU%20Graduate%20Hall%202!5e0!3m2!1szh-CN!2ssg!4v1607695245581!5m2!1szh-CN!2ssg" frameborder="0" allowfullscreen>
+									</iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-35 END -->
+
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></a>
 <!-- ScrollToTop Button END-->
@@ -1052,15 +1061,15 @@
 
 
 <!-- Additional JS -->
-<script src="./js/jquery-3.5.1.min.js?4927"></script>
-<script src="./js/bootstrap.bundle.min.js?8706"></script>
-<script src="./js/blocs.min.js?7833"></script>
+<script src="./js/jquery-3.5.1.min.js?8996"></script>
+<script src="./js/bootstrap.bundle.min.js?2248"></script>
+<script src="./js/blocs.min.js?3518"></script>
 <script src="./js/jqBootstrapValidation.js"></script>
-<script src="./js/formHandler.js?3754"></script>
+<script src="./js/formHandler.js?4193"></script>
 <script src="./js/jquery.touchSwipe.min.js" defer></script>
 <script src="./js/lazysizes.min.js" defer></script>
-<script src="./js/universal-parallax.min.js?5306"></script>
-<script src="./js/scrollFX.js?1660"></script>
+<script src="./js/universal-parallax.min.js?4254"></script>
+<script src="./js/scrollFX.js?4606"></script>
 <!-- Additional JS END -->
 
 
