@@ -464,6 +464,13 @@ button{
 .blocsapp-device-mbp-space-grey{
 	background-image:url("img/Apple-Macbook-Pro-Space-Grey.png");
 }
+
+/* = Modal
+-------------------------------------------------------------- */
+
+.modal-fill{
+	max-width: 99%;
+}
 /* = Lightbox
 -------------------------------------------------------------- */
 
