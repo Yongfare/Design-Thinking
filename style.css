@@ -806,13 +806,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-top:10px;
 }
 .btn-log-in-padding-left{
+	width:78.64%;
 	padding:0px 12px 0px 12px;
 	border-radius:17px 17px 17px 17px;
 }
 .bloc-navigation-padding-top{
 	padding-top:1px;
 	padding-left:0px;
-	padding-right:29px;
+	padding-right:0px;
 }
 .bloc-divider-b-fill{
 	fill:#78CE12;
